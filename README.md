@@ -1,4 +1,4 @@
-curl -u "ksharpke" https://api.github.com/user/repos -d '{"name":"ASDT_1", "private":true}'
+curl -u "ASDT_1" https://api.github.com/user/repos -d '{"name":"ASDT_1", "private":true}'
 git clone https://github.com/ksharpke/ASDT_1.git
 cd ASDT_1
 git checkout -b feature/about_me
