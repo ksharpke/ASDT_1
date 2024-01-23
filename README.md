@@ -2,9 +2,9 @@ curl -u "ksharpke" https://api.github.com/user/repos -d '{"name":"ASDT_1", "priv
 git clone https://github.com/ksharpke/ASDT_1.git
 cd ASDT_1
 git checkout -b feature/about_me
-echo "# Hakkımda\n\n**Ad:** Adınız\n**Ülke:** Ülkeniz\n**IT İlgi Alanları:** IT ilgi alanlarınız\n**Tercih Edilen Programlama Dilleri:** Tercih ettiğiniz diller" > README.md
+echo "# Hakkımda\n\n**Ad:** kemalemreözdemir\n**Ülke:** Turkey\n**python:**cybersecurıty\n**python.csharp:** turkısh.english.polish" > README.md
 git add README.md
-git commit -m "Kendim hakkında bilgi ekle"
+git commit -m "ı lıke to go gym"
 git push origin feature/about_me
 echo "Ödev 1 Tamamlandı" > REPORT.pdf
 git add REPORT.pdf
