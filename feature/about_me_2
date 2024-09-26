@@ -1,0 +1,15 @@
+git config --global user.name "Kemal Emre Özdemir"
+git config --global user.email "kemalemre408@gmail.com"
+git clone https://github.com/kemalemre408/ASDT_1.git
+cd ASDT_1
+nano README.md
+git add screenshots/git_version.png screenshots/git_config.png
+git add .
+git commit -m
+git clone https://github.com/kemalemre408/ASDT_1.git
+cd ASDT_1
+nano README.md
+git add .
+git commit -m 
+git push origin feature/about_me_2
+
